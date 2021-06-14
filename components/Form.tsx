@@ -7,7 +7,7 @@ const Form: FC = () => {
   const [lifeEvent3, setLifeEvent3] = useState('')
   const [lyrics, setLyrics] = useState('')
 
-  const createLyrics = async (e) => {
+  const createLyrics = async (e:any) => {
       e.preventDefault()
       // Default options are marked with *
       try {
